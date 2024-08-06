@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+:root{
+    --color-primario: #1D3D57;
+    --color-secundario: #2A597F;
+    --color-terciario: #52ACF5;
+    --color-cuarto: #3876A8;
+    --color-quinto: #4592D1;
+
+    --fuente-roboto: "Roboto", sans-serif;
+    --fuente-ubuntu: "Ubuntu", sans-serif;
+    --fuente-arg: "Playwrite AR", cursive;
+
+}
+/*poner var(variable) para usar la variable. ej: color: var(--color-primario); */
+/*debo de usar rem y porcentaje*/
+
+.color_body{
+    background-color: var(--color-primario);
+}
+
+.titulo_principal{
+    font-family: var(--fuente-ubuntu);
+    color: var(--color-terciario);
+}
